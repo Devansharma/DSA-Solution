@@ -4,6 +4,5 @@ def fibonacci(n):
     else:
        return(fibonacci(n-1) + fibonacci(n-2))
 
-
 output = fibonacci(6)
 print(output)
